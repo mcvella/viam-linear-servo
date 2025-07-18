@@ -1,0 +1,13 @@
+{
+  "module_name": "linear-servo",
+  "namespace": "mcvella",
+  "language": "python",
+  "resource_type": "component",
+  "resource_subtype": "servo",
+  "model_name": "linear-servo",
+  "enable_cloud_build": false,
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2025-07-18T13:59:17.704653Z",
+  "module_readme_link": "README.md"
+}

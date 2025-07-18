@@ -1,0 +1,30 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "mcvella:linear-servo",
+  "visibility": "public",
+  "url": "https://github.com/mcvella/viam-linear-servo",
+  "description": "Modular servo component: linear-servo",
+  "models": [
+    {
+      "api": "rdk:component:servo",
+      "model": "mcvella:servo:linear-servo",
+      "short_description": "Provide a short (100 characters or less) description of this model here",
+      "markdown_link": "README.md#model-mcvellalinear-servolinear-servo"
+    }
+  ],
+  "applications": null,
+  "markdown_link": "README.md",
+  "entrypoint": "./run.sh",
+  "first_run": "",
+  "build": {
+    "build": "./build.sh",
+    "setup": "./setup.sh",
+    "path": "dist/archive.tar.gz",
+    "arch": [
+      "linux/amd64",
+      "linux/arm64",
+      "darwin/arm64",
+      "windows/amd64"
+    ]
+  }
+}
