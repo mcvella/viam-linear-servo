@@ -156,7 +156,7 @@ class LinearServo(Servo, EasyResource):
         await self.motor.stop()
         
         # Update current position
-        self.position = target_position
+        self.position = int(target_position)
 
     async def get_position(
         self,
